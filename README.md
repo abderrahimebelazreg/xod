@@ -77,3 +77,4 @@ need to restart. The last theme you used is remembered (`~/.config/xod/theme`).
 * Search is case-sensitive.
 * If the OS does not report which Ctrl key is pressed, Ctrl acts as the left one.
 # xod
+# xod
