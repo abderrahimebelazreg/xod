@@ -3,6 +3,8 @@ name = "xod"
 version = "0.1.0"
 edition = "2021"
 description = "xod - a small modal GUI text editor with switchable themes"
+repository = "https://github.com/abderrahimebelazreg/xod"
+license = "MIT"
 
 [dependencies]
 iced = "0.13"
@@ -10,3 +12,21 @@ iced = "0.13"
 [profile.release]
 opt-level = 3
 lto = "thin"
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
+
+[package.metadata.deb]
+maintainer = "Abderrahime Belazreg"
+copyright = "2026, Abderrahime Belazreg"
+license-file = ["LICENSE", "0"]
+extended-description = "A small modal GUI text editor with switchable themes."
+section = "editors"
+priority = "optional"
+assets = [
+    ["target/release/xod", "usr/bin/", "755"],
+    ["assets/xod.desktop", "usr/share/applications/", "644"],
+    ["assets/xod-256.png", "usr/share/icons/hicolor/256x256/apps/xod.png", "644"],
+]
