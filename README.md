@@ -76,3 +76,4 @@ need to restart. The last theme you used is remembered (`~/.config/xod/theme`).
 * Go to line and find move the cursor step by step, so they can pause briefly on very large files.
 * Search is case-sensitive.
 * If the OS does not report which Ctrl key is pressed, Ctrl acts as the left one.
+# xod
