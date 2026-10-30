@@ -1,0 +1,12 @@
+[package]
+name = "xod"
+version = "0.1.0"
+edition = "2021"
+description = "xod - a small modal GUI text editor with switchable themes"
+
+[dependencies]
+iced = "0.13"
+
+[profile.release]
+opt-level = 3
+lto = "thin"

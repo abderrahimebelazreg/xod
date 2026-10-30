@@ -1,0 +1,12 @@
+# Copy this file to ~/.config/xod/themes/ and change the colors.
+# Press Ctrl+T inside xod: your theme appears in the cycle (the folder is re-read each time).
+#
+# Required: background, foreground.   Optional: name, selection, accent, statusbar.
+# Colors are #rrggbb.
+
+name = "sunset"
+background = "#1f1a24"
+foreground = "#f3e9dc"
+selection = "#4a3b57"
+accent = "#ff8a5b"
+statusbar = "#17131b"
