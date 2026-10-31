@@ -1,7 +1,13 @@
 # xod
+<div align="center">
 
+# XOD
 
 ![Xod_video](vd.gif)
+
+</div>
+
+
 
 A small modal GUI text editor in Rust (built on [iced](https://iced.rs) 0.13).
 Two modes like Vim: **view** (move, select, command keys, no typing) and **insert** (typing).
