@@ -4,7 +4,7 @@
 # XOD
 
 ![Xod_video](vd.gif)
-
+ <img src="vd.gif" width="100%">
 </div>
 
 
