@@ -1,7 +1,7 @@
 # xod
 
 
-![Xod_video](vd.mp4)
+![Xod_video](vd.gif)
 
 A small modal GUI text editor in Rust (built on [iced](https://iced.rs) 0.13).
 Two modes like Vim: **view** (move, select, command keys, no typing) and **insert** (typing).
