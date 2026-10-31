@@ -1,7 +1,7 @@
-# xod
+
 <div align="center">
 
-# XOD
+# xod
 
 ![Xod_video](vd.gif)
 
